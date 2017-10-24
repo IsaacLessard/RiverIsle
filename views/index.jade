@@ -42,13 +42,23 @@ block content
         h3 Reporting
         h5 Measurable Results
   .contact
-    .contactPortrait
+    .contactPartition
       img(src="../images/glenn-peters.jpg")
-    .contactForm
+    .contactPartition
       h3 Connect With us
-      h5 info@mysite.com
-      form(action="/something")
-        input
-        input
-        input
-        input
+      form(action="mailto:isaac.c.lessard@gmail.com", method="post", enctype="text/plain")
+        label(for="name") Name:
+        input(type='text', name='name')
+        br
+        br
+        label(for="mail") E-Mail:
+        input(type='text', name='mail')
+        br
+        br
+        label(for="comment") Text:
+        input(type='text', name='comment', size='50')
+        br
+        br
+        input(type='submit', value='Submit')
+        br
+        input(type='reset', value='Reset')
