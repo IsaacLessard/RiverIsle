@@ -19,6 +19,7 @@ body {
   height: 90vh;
   background: url(../images/michael-browning-30673.jpg) no-repeat center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .logo {
@@ -112,6 +113,7 @@ body {
   width: 90vw;
   background-color: black;
   background: url(../images/laptops.jpg) no-repeat center center;
+  background-attachment: fixed;
   background-size: cover;
   margin: 0 auto;
 }
