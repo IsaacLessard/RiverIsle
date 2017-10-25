@@ -2,24 +2,27 @@ body {
   margin: 0 auto;
   padding: 0;
   height: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
   width: 100vw;
   height: 115px;
+  min-width: 1020px;
 }
 
 .jumbo {
   height: 90vh;
   width: 100vw;
+  min-height: 750px;
 }
 
 .jumboImg {
-  height: 90vh;
+  height: 100%;
   background: url(../images/michael-browning-30673.jpg) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
+  min-width: 1020px;
 }
 
 .logo {
@@ -83,6 +86,8 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #AAC9DA;
+  min-width: 1020px;
+  min-height: 750px;
 }
 
 .blurb {
@@ -111,6 +116,7 @@ body {
 .aboutImg {
   height: 60vh;
   width: 90vw;
+  min-width: 950px;
   background-color: black;
   background: url(../images/laptops.jpg) no-repeat center center;
   background-attachment: fixed;
@@ -121,6 +127,8 @@ body {
 .services {
   width: 100vw;
   height: 100vh;
+  min-width: 1020px;
+  min-height: 750px;
 }
 
 .servicesBlurb {
@@ -163,6 +171,7 @@ body {
   background-color: #C0BFC6;
   width: 100vw;
   margin: 0;
+  min-width: 1020px;
 }
 
 .contactPartition {
